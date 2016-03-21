@@ -1,0 +1,99 @@
+
+/* General */
+body{
+  font-family: 'Droid Sans', sans-serif;
+}
+
+
+/* Calculator */
+.side-wrapper {
+  background-color: #aaa;
+  width: 30%;
+  height: 100%;
+  position: fixed;
+  overflow: scroll;
+  float: left;
+}
+
+.side-wrapper h1 {
+  margin-left: 45px;
+  font-size: 1.5em;
+}
+
+.side-wrapper div {
+  margin: 20px 45px;
+}
+
+
+form label {
+  margin-bottom: 5px;
+  display: block;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+input {
+  width: 90%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type=text], input[type=number] {
+  padding: 15px 5%;
+}
+
+input[type=submit], button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* Output Screen */
+.employee-nodes {
+  width: 70%;
+  float: right;
+}
+
+.employee-nodes h1, .employee-info  {
+  margin-left: 100px;
+  width: 250px;
+}
+
+.employee-info {
+
+  border-radius: 5px;
+  background-color: #ccc;
+  margin-bottom: 10px;
+  background-image: -webkit-linear-gradient(top, #ccc, #ddd);
+  background-image: -moz-linear-gradient(top, #ccc, #ddd);
+  background-image: -ms-linear-gradient(top, #ccc, #ddd);
+  background-image: -o-linear-gradient(top, #ccc, #ddd);
+  background-image: linear-gradient(to bottom, #ccc, #ddd);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.employee-info button {
+
+}
+button {
+  width: 60%;
+  background-color: #FF4444;
+  margin: 0 auto 19px;
+  display: block;
+}
+
+.example {
+  opacity: 0.3;
+}
